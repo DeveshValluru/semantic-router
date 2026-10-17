@@ -2289,6 +2289,167 @@ const builtInCatalogJSON = `{
         "source": "https://artificialanalysis.ai/evaluations/critpt",
         "verification": "imported"
       },
+      "id": "independent/jamba-1-7-mini-critpt@1.0.0",
+      "metrics": {
+        "score": 0
+      },
+      "model": "ai21/jamba-mini-1.7",
+      "observed_at": "2026-10-16",
+      "reasoning_effort": "disabled",
+      "status": "available",
+      "subject": {
+        "run_kind": "independent",
+        "source_model": "Jamba 1.7 Mini",
+        "source_model_slug": "jamba-1-7-mini"
+      }
+    },
+    {
+      "benchmark": "artificial-analysis/lcr@1.1.0",
+      "benchmark_profile": "independent-standard",
+      "evidence": {
+        "provenance": "third_party",
+        "redistributable": true,
+        "source": "https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning",
+        "verification": "imported"
+      },
+      "id": "independent/jamba-1-7-mini-artificial-analysis-long-context-reasoning@1.1.0",
+      "metrics": {
+        "score": 0.16
+      },
+      "model": "ai21/jamba-mini-1.7",
+      "observed_at": "2026-10-16",
+      "reasoning_effort": "disabled",
+      "status": "available",
+      "subject": {
+        "run_kind": "independent",
+        "source_model": "Jamba 1.7 Mini",
+        "source_model_slug": "jamba-1-7-mini"
+      }
+    },
+    {
+      "benchmark": "artificial-analysis/omniscience@1.0.0",
+      "benchmark_profile": "independent-standard",
+      "evidence": {
+        "provenance": "third_party",
+        "redistributable": true,
+        "source": "https://artificialanalysis.ai/evaluations/omniscience",
+        "verification": "imported"
+      },
+      "id": "independent/jamba-1-7-mini-omniscience@1.0.0",
+      "metrics": {
+        "index": -73.1166666666667
+      },
+      "model": "ai21/jamba-mini-1.7",
+      "observed_at": "2026-10-16",
+      "reasoning_effort": "disabled",
+      "status": "available",
+      "subject": {
+        "run_kind": "independent",
+        "source_model": "Jamba 1.7 Mini",
+        "source_model_slug": "jamba-1-7-mini"
+      }
+    },
+    {
+      "benchmark": "cais/humanitys-last-exam@1.0.0",
+      "benchmark_profile": "independent-text-only",
+      "evidence": {
+        "provenance": "third_party",
+        "redistributable": true,
+        "source": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
+        "verification": "imported"
+      },
+      "id": "independent/jamba-1-7-mini-humanitys-last-exam@1.0.0",
+      "metrics": {
+        "accuracy": 0.0444856348470806
+      },
+      "model": "ai21/jamba-mini-1.7",
+      "observed_at": "2026-10-16",
+      "reasoning_effort": "disabled",
+      "status": "available",
+      "subject": {
+        "run_kind": "independent",
+        "source_model": "Jamba 1.7 Mini",
+        "source_model_slug": "jamba-1-7-mini"
+      }
+    },
+    {
+      "benchmark": "idavidrein/gpqa-diamond@1.0.0",
+      "benchmark_profile": "independent-standard",
+      "evidence": {
+        "provenance": "third_party",
+        "redistributable": true,
+        "source": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+        "verification": "imported"
+      },
+      "id": "independent/jamba-1-7-mini-gpqa-diamond@1.0.0",
+      "metrics": {
+        "accuracy": 0.322222222222222
+      },
+      "model": "ai21/jamba-mini-1.7",
+      "observed_at": "2026-10-16",
+      "reasoning_effort": "disabled",
+      "status": "available",
+      "subject": {
+        "run_kind": "independent",
+        "source_model": "Jamba 1.7 Mini",
+        "source_model_slug": "jamba-1-7-mini"
+      }
+    },
+    {
+      "benchmark": "livecodebench/livecodebench@6.0.0",
+      "benchmark_profile": "independent-code-generation",
+      "evidence": {
+        "provenance": "third_party",
+        "redistributable": true,
+        "source": "https://artificialanalysis.ai/evaluations/livecodebench",
+        "verification": "imported"
+      },
+      "id": "independent/jamba-1-7-mini-livecodebench-v6@6.0.0",
+      "metrics": {
+        "pass_at_1": 0.0613756613756614
+      },
+      "model": "ai21/jamba-mini-1.7",
+      "observed_at": "2026-10-16",
+      "reasoning_effort": "disabled",
+      "status": "available",
+      "subject": {
+        "run_kind": "independent",
+        "source_model": "Jamba 1.7 Mini",
+        "source_model_slug": "jamba-1-7-mini"
+      }
+    },
+    {
+      "benchmark": "allenai/ifbench@1.0.0",
+      "benchmark_profile": "prompt-loose",
+      "evidence": {
+        "provenance": "third_party",
+        "redistributable": true,
+        "source": "https://artificialanalysis.ai/evaluations/ifbench",
+        "verification": "imported"
+      },
+      "id": "independent/jamba-1-7-mini-ifbench@1.0.0",
+      "metrics": {
+        "accuracy": 0.313605442176871
+      },
+      "model": "ai21/jamba-mini-1.7",
+      "observed_at": "2026-10-16",
+      "reasoning_effort": "disabled",
+      "status": "available",
+      "subject": {
+        "run_kind": "independent",
+        "source_model": "Jamba 1.7 Mini",
+        "source_model_slug": "jamba-1-7-mini"
+      }
+    },
+    {
+      "benchmark": "artificial-analysis/critpt@1.0.0",
+      "benchmark_profile": "independent-standard",
+      "evidence": {
+        "provenance": "third_party",
+        "redistributable": true,
+        "source": "https://artificialanalysis.ai/evaluations/critpt",
+        "verification": "imported"
+      },
       "id": "independent/nova-pro-critpt@1.0.0",
       "metrics": {
         "score": 0
@@ -41052,6 +41213,335 @@ const builtInCatalogJSON = `{
       "provenance": [
         "independent/jamba-1-7-large-gpqa-diamond@1.0.0",
         "independent/jamba-1-7-large-humanitys-last-exam@1.0.0"
+      ],
+      "reasoning_effort": "disabled",
+      "score": null,
+      "status": "partial"
+    },
+    {
+      "components": [
+        {
+          "benchmark": "tiger-ai-lab/mmlu-pro@1.0.0",
+          "benchmark_profiles": [
+            "independent-standard",
+            "published-standard"
+          ],
+          "metric": "accuracy",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 1.0
+        }
+      ],
+      "coverage": 0.0,
+      "index": "vllm-sr/general@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [],
+      "reasoning_effort": "default",
+      "score": null,
+      "status": "missing"
+    },
+    {
+      "components": [
+        {
+          "benchmark": "idavidrein/gpqa-diamond@1.0.0",
+          "benchmark_profiles": [
+            "independent-standard",
+            "published-standard"
+          ],
+          "metric": "accuracy",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.5
+        },
+        {
+          "benchmark": "cais/humanitys-last-exam@1.0.0",
+          "benchmark_profiles": [
+            "independent-text-only",
+            "text-only"
+          ],
+          "metric": "accuracy",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.5
+        }
+      ],
+      "coverage": 0.0,
+      "index": "vllm-sr/reasoning@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [],
+      "reasoning_effort": "default",
+      "score": null,
+      "status": "missing"
+    },
+    {
+      "components": [
+        {
+          "benchmark": "livecodebench/livecodebench@6.0.0",
+          "benchmark_profiles": [
+            "independent-code-generation",
+            "published-code-generation"
+          ],
+          "metric": "pass_at_1",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.5
+        },
+        {
+          "benchmark": "scicode-bench/scicode@1.0.0",
+          "benchmark_profiles": [
+            "independent-test-288",
+            "published-standard"
+          ],
+          "metric": "score",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.5
+        }
+      ],
+      "coverage": 0.0,
+      "index": "vllm-sr/coding@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [],
+      "reasoning_effort": "default",
+      "score": null,
+      "status": "missing"
+    },
+    {
+      "components": [
+        {
+          "benchmark": "harbor/terminal-bench@2.1.0",
+          "benchmark_profiles": [
+            "independent-agent",
+            "published-agent"
+          ],
+          "metric": "resolved",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 1.0
+        }
+      ],
+      "coverage": 0.0,
+      "index": "vllm-sr/agentic@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [],
+      "reasoning_effort": "default",
+      "score": null,
+      "status": "missing"
+    },
+    {
+      "components": [
+        {
+          "index": "vllm-sr/general@1.0.0",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.2
+        },
+        {
+          "index": "vllm-sr/reasoning@1.0.0",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.4
+        },
+        {
+          "index": "vllm-sr/coding@1.0.0",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.2
+        },
+        {
+          "index": "vllm-sr/agentic@1.0.0",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.2
+        }
+      ],
+      "coverage": 0.0,
+      "index": "vllm-sr/intelligence@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [],
+      "reasoning_effort": "default",
+      "score": null,
+      "status": "missing"
+    },
+    {
+      "components": [
+        {
+          "benchmark": "tiger-ai-lab/mmlu-pro@1.0.0",
+          "benchmark_profiles": [
+            "independent-standard",
+            "published-standard"
+          ],
+          "metric": "accuracy",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 1.0
+        }
+      ],
+      "coverage": 0.0,
+      "index": "vllm-sr/general@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [],
+      "reasoning_effort": "disabled",
+      "score": null,
+      "status": "missing"
+    },
+    {
+      "components": [
+        {
+          "benchmark": "idavidrein/gpqa-diamond@1.0.0",
+          "benchmark_profile": "independent-standard",
+          "benchmark_profiles": [
+            "independent-standard",
+            "published-standard"
+          ],
+          "evaluation": "independent/jamba-1-7-mini-gpqa-diamond@1.0.0",
+          "metric": "accuracy",
+          "normalized": 0.322222222222222,
+          "status": "available",
+          "value": 0.322222222222222,
+          "weight": 0.5
+        },
+        {
+          "benchmark": "cais/humanitys-last-exam@1.0.0",
+          "benchmark_profile": "independent-text-only",
+          "benchmark_profiles": [
+            "independent-text-only",
+            "text-only"
+          ],
+          "evaluation": "independent/jamba-1-7-mini-humanitys-last-exam@1.0.0",
+          "metric": "accuracy",
+          "normalized": 0.0444856348470806,
+          "status": "available",
+          "value": 0.0444856348470806,
+          "weight": 0.5
+        }
+      ],
+      "coverage": 1.0,
+      "domains": {
+        "frontier_reasoning": 4.44856348470806,
+        "scientific_reasoning": 32.2222222222222
+      },
+      "index": "vllm-sr/reasoning@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [
+        "independent/jamba-1-7-mini-gpqa-diamond@1.0.0",
+        "independent/jamba-1-7-mini-humanitys-last-exam@1.0.0"
+      ],
+      "reasoning_effort": "disabled",
+      "score": 18.335392853465134,
+      "status": "available"
+    },
+    {
+      "components": [
+        {
+          "benchmark": "livecodebench/livecodebench@6.0.0",
+          "benchmark_profile": "independent-code-generation",
+          "benchmark_profiles": [
+            "independent-code-generation",
+            "published-code-generation"
+          ],
+          "evaluation": "independent/jamba-1-7-mini-livecodebench-v6@6.0.0",
+          "metric": "pass_at_1",
+          "normalized": 0.0613756613756614,
+          "status": "available",
+          "value": 0.0613756613756614,
+          "weight": 0.5
+        },
+        {
+          "benchmark": "scicode-bench/scicode@1.0.0",
+          "benchmark_profiles": [
+            "independent-test-288",
+            "published-standard"
+          ],
+          "metric": "score",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.5
+        }
+      ],
+      "coverage": 0.5,
+      "index": "vllm-sr/coding@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [
+        "independent/jamba-1-7-mini-livecodebench-v6@6.0.0"
+      ],
+      "reasoning_effort": "disabled",
+      "score": null,
+      "status": "partial"
+    },
+    {
+      "components": [
+        {
+          "benchmark": "harbor/terminal-bench@2.1.0",
+          "benchmark_profiles": [
+            "independent-agent",
+            "published-agent"
+          ],
+          "metric": "resolved",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 1.0
+        }
+      ],
+      "coverage": 0.0,
+      "index": "vllm-sr/agentic@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [],
+      "reasoning_effort": "disabled",
+      "score": null,
+      "status": "missing"
+    },
+    {
+      "components": [
+        {
+          "index": "vllm-sr/general@1.0.0",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.2
+        },
+        {
+          "index": "vllm-sr/reasoning@1.0.0",
+          "normalized": 0.18335392853465135,
+          "status": "available",
+          "value": 0.18335392853465135,
+          "weight": 0.4
+        },
+        {
+          "index": "vllm-sr/coding@1.0.0",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.2
+        },
+        {
+          "index": "vllm-sr/agentic@1.0.0",
+          "normalized": null,
+          "status": "missing",
+          "value": null,
+          "weight": 0.2
+        }
+      ],
+      "coverage": 0.4,
+      "index": "vllm-sr/intelligence@1.0.0",
+      "model": "ai21/jamba-mini-1.7",
+      "provenance": [
+        "independent/jamba-1-7-mini-gpqa-diamond@1.0.0",
+        "independent/jamba-1-7-mini-humanitys-last-exam@1.0.0",
+        "independent/jamba-1-7-mini-livecodebench-v6@6.0.0"
       ],
       "reasoning_effort": "disabled",
       "score": null,
@@ -97200,6 +97690,56 @@ const builtInCatalogJSON = `{
     {
       "capabilities": [
         "chat",
+        "tools",
+        "structured_output",
+        "long_context"
+      ],
+      "description": "Efficient AI21 hybrid model tuned for grounding and steerability.",
+      "display_name": "Jamba Mini 1.7",
+      "distribution": {
+        "license": "Jamba-Open-Model-License",
+        "source": "https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.7",
+        "type": "open_weights"
+      },
+      "family": "jamba",
+      "id": "ai21/jamba-mini-1.7",
+      "kind": "physical",
+      "lifecycle": "active",
+      "limits": {
+        "context_window_size": 256000
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "parameter_size": "52B (12B active)",
+      "presentation": {
+        "logo": "package:ai21",
+        "monochrome": false,
+        "monogram": "A"
+      },
+      "publisher": "AI21 Labs",
+      "released_at": "2025-07-01",
+      "tags": [
+        "open_weights",
+        "hybrid_architecture",
+        "long_context",
+        "efficient"
+      ],
+      "verification": {
+        "authority": "AI21 Labs",
+        "source": "https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.7",
+        "status": "claimed",
+        "verified_at": "2026-10-16"
+      }
+    },
+    {
+      "capabilities": [
+        "chat",
         "reasoning",
         "tools",
         "vision",
@@ -107701,6 +108241,21 @@ const builtInCatalogJSON = `{
             "source": "https://huggingface.co/ai21labs/AI21-Jamba-Large-1.7",
             "status": "claimed",
             "verified_at": "2026-09-05"
+          }
+        },
+        {
+          "catalog": "ai21/jamba-mini-1.7",
+          "id": "ai21labs/AI21-Jamba-Mini-1.7",
+          "lifecycle": "active",
+          "protocols": [
+            "openai/chat-completions@1",
+            "openai/responses@1"
+          ],
+          "relationship": "self_hosted",
+          "verification": {
+            "source": "https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.7",
+            "status": "claimed",
+            "verified_at": "2026-10-16"
           }
         },
         {

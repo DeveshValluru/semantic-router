@@ -97,6 +97,17 @@ models:
     status: claimed
     verified_at: 2026-09-05
     source: https://huggingface.co/ai21labs/AI21-Jamba-Large-1.7
+- catalog: ai21/jamba-mini-1.7
+  relationship: self_hosted
+  id: ai21labs/AI21-Jamba-Mini-1.7
+  protocols:
+  - openai/chat-completions@1
+  - openai/responses@1
+  lifecycle: active
+  verification:
+    status: claimed
+    verified_at: 2026-10-16
+    source: https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.7
 - catalog: ai21/jamba2-mini
   relationship: self_hosted
   id: ai21labs/AI21-Jamba2-Mini

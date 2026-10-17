@@ -339,3 +339,129 @@
     verification: imported
     source: https://artificialanalysis.ai/evaluations/gpqa-diamond
     redistributable: true
+- id: independent/jamba-1-7-mini-critpt@1.0.0
+  model: ai21/jamba-mini-1.7
+  benchmark: artificial-analysis/critpt@1.0.0
+  benchmark_profile: independent-standard
+  reasoning_effort: disabled
+  subject:
+    source_model: Jamba 1.7 Mini
+    source_model_slug: jamba-1-7-mini
+    run_kind: independent
+  metrics:
+    score: 0
+  status: available
+  observed_at: 2026-10-16
+  evidence:
+    provenance: third_party
+    verification: imported
+    source: https://artificialanalysis.ai/evaluations/critpt
+    redistributable: true
+- id: independent/jamba-1-7-mini-artificial-analysis-long-context-reasoning@1.1.0
+  model: ai21/jamba-mini-1.7
+  benchmark: artificial-analysis/lcr@1.1.0
+  benchmark_profile: independent-standard
+  reasoning_effort: disabled
+  subject:
+    source_model: Jamba 1.7 Mini
+    source_model_slug: jamba-1-7-mini
+    run_kind: independent
+  metrics:
+    score: 0.16
+  status: available
+  observed_at: 2026-10-16
+  evidence:
+    provenance: third_party
+    verification: imported
+    source: https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning
+    redistributable: true
+- id: independent/jamba-1-7-mini-omniscience@1.0.0
+  model: ai21/jamba-mini-1.7
+  benchmark: artificial-analysis/omniscience@1.0.0
+  benchmark_profile: independent-standard
+  reasoning_effort: disabled
+  subject:
+    source_model: Jamba 1.7 Mini
+    source_model_slug: jamba-1-7-mini
+    run_kind: independent
+  metrics:
+    index: -73.1166666666667
+  status: available
+  observed_at: 2026-10-16
+  evidence:
+    provenance: third_party
+    verification: imported
+    source: https://artificialanalysis.ai/evaluations/omniscience
+    redistributable: true
+- id: independent/jamba-1-7-mini-humanitys-last-exam@1.0.0
+  model: ai21/jamba-mini-1.7
+  benchmark: cais/humanitys-last-exam@1.0.0
+  benchmark_profile: independent-text-only
+  reasoning_effort: disabled
+  subject:
+    source_model: Jamba 1.7 Mini
+    source_model_slug: jamba-1-7-mini
+    run_kind: independent
+  metrics:
+    accuracy: 0.0444856348470806
+  status: available
+  observed_at: 2026-10-16
+  evidence:
+    provenance: third_party
+    verification: imported
+    source: https://artificialanalysis.ai/evaluations/humanitys-last-exam
+    redistributable: true
+- id: independent/jamba-1-7-mini-gpqa-diamond@1.0.0
+  model: ai21/jamba-mini-1.7
+  benchmark: idavidrein/gpqa-diamond@1.0.0
+  benchmark_profile: independent-standard
+  reasoning_effort: disabled
+  subject:
+    source_model: Jamba 1.7 Mini
+    source_model_slug: jamba-1-7-mini
+    run_kind: independent
+  metrics:
+    accuracy: 0.322222222222222
+  status: available
+  observed_at: 2026-10-16
+  evidence:
+    provenance: third_party
+    verification: imported
+    source: https://artificialanalysis.ai/evaluations/gpqa-diamond
+    redistributable: true
+- id: independent/jamba-1-7-mini-livecodebench-v6@6.0.0
+  model: ai21/jamba-mini-1.7
+  benchmark: livecodebench/livecodebench@6.0.0
+  benchmark_profile: independent-code-generation
+  reasoning_effort: disabled
+  subject:
+    source_model: Jamba 1.7 Mini
+    source_model_slug: jamba-1-7-mini
+    run_kind: independent
+  metrics:
+    pass_at_1: 0.0613756613756614
+  status: available
+  observed_at: 2026-10-16
+  evidence:
+    provenance: third_party
+    verification: imported
+    source: https://artificialanalysis.ai/evaluations/livecodebench
+    redistributable: true
+- id: independent/jamba-1-7-mini-ifbench@1.0.0
+  model: ai21/jamba-mini-1.7
+  benchmark: allenai/ifbench@1.0.0
+  benchmark_profile: prompt-loose
+  reasoning_effort: disabled
+  subject:
+    source_model: Jamba 1.7 Mini
+    source_model_slug: jamba-1-7-mini
+    run_kind: independent
+  metrics:
+    accuracy: 0.313605442176871
+  status: available
+  observed_at: 2026-10-16
+  evidence:
+    provenance: third_party
+    verification: imported
+    source: https://artificialanalysis.ai/evaluations/ifbench
+    redistributable: true
